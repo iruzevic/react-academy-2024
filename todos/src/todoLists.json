@@ -1,0 +1,108 @@
+{
+	"todoLists": [
+		{
+			"id": "1",
+			"title": "TODO - Learn JS",
+			"todos": [
+				{
+					"title": "Learn React",
+					"done": true
+				},
+				{
+					"title": "Learn CSS",
+					"done": true
+				},
+				{
+					"title": "Learn JS",
+					"done": true
+				},
+				{
+					"title": "Learn NextJS",
+					"done": false
+				},
+				{
+					"title": "Learn ChakraUI",
+					"done": false
+				}
+			]
+		},
+		{
+			"id": "2",
+			"title": "Shopping List",
+			"todos": [
+				{
+					"title": "Milk",
+					"done": true
+				},
+				{
+					"title": "Potatoes",
+					"done": true
+				},
+				{
+					"title": "Toast",
+					"done": true
+				},
+				{
+					"title": "Pekmez",
+					"done": false
+				}
+			]
+		},
+		{
+			"id": "3",
+			"title": "Daily tasks",
+			"todos": [
+				{
+					"title": "Feed the cats",
+					"done": true
+				},
+				{
+					"title": "Water the plants",
+					"done": true
+				},
+				{
+					"title": "Do the laundry",
+					"done": true
+				},
+				{
+					"title": "Buy groceries",
+					"done": false
+				},
+				{
+					"title": "Cook lunch",
+					"done": false
+				},
+				{
+					"title": "Go to the gym",
+					"done": false
+				}
+			]
+		},
+		{
+			"id": "4",
+			"title": "Vacation plan",
+			"todos": [
+				{
+					"title": "Book a flight",
+					"done": true
+				},
+				{
+					"title": "Book a hotel",
+					"done": true
+				},
+				{
+					"title": "Pack the bags",
+					"done": true
+				},
+				{
+					"title": "Plan the route",
+					"done": false
+				},
+				{
+					"title": "Decide on the activities",
+					"done": false
+				}
+			]
+		}
+	]
+}
