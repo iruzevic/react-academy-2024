@@ -25,7 +25,7 @@ const mockTodoList = {
 };
 
 export const TodoListContainer = () => {
-	const [todoList, setTodoList] = useState(mockTodoList);
+	const [todoList, setTodoList] = useState({mockTodoList});
 
 	useEffect(() => {
 		const loadedList = loadFromLocalStorage();

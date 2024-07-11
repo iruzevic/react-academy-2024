@@ -1,6 +1,9 @@
 export async function fetcher<T>(input: string | URL | globalThis.Request, init?: RequestInit): Promise<T> {
 	try {
-		const response = await fetch(input, init);
+		const response = await fetch(input, {
+			credentials: 'include',
+			...init,
+		});
 		if (!response.ok) {
 			throw new Error(`Response status: ${response.status}`);
 		}
